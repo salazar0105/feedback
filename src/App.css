@@ -1,0 +1,74 @@
+body {
+  background-color: #0d0d18; /* Dark background for a futuristic feel */
+  color: #ffffff; /* Light text */
+  font-family: 'Roboto', sans-serif; /* Modern font */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app-container {
+  background: linear-gradient(135deg, #1e1e2f, #3a3a5a); /* Gradient background */
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7); /* Stronger shadow */
+  width: 90%;
+  max-width: 500px; /* Limit max width */
+  backdrop-filter: blur(10px); /* Frosted glass effect */
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem; /* Larger title */
+  letter-spacing: 1px;
+}
+
+.dropdowns-container {
+  display: flex;
+  justify-content: space-between; /* Space between the dropdowns */
+  gap: 1rem; /* Space between dropdowns */
+}
+
+select {
+  background-color: rgba(50, 50, 70, 0.8); /* Darker background */
+  color: #ffffff; /* Text color */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Border color */
+  padding: 0.75rem; /* Padding */
+  border-radius: 6px; /* Rounded corners */
+  transition: background 0.3s ease; /* Smooth transition */
+  width: 100%; /* Take full width of the container */
+}
+
+select:focus {
+  background-color: rgba(70, 70, 100, 0.8); /* Slightly lighter on focus */
+  border-color: #e94560; /* Highlight border on focus */
+  outline: none; /* Remove default outline */
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin: 0.5rem 0;
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */
+  border-radius: 6px;
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background */
+  color: #ffffff; /* Input text color */
+  font-size: 1rem;
+  transition: border 0.3s ease; /* Smooth transition */
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+  border-color: #e94560; /* Highlight border on focus */
+  outline: none; /* Remove default outline */
+}
+
+/* Other styles remain unchanged */

@@ -1,5 +1,5 @@
 body {
-  background-color: #0d0d18; /* Dark background for a futuristic feel */
+  background-color: #6a0dad; /* Dark background for a futuristic feel */
   color: #ffffff; /* Light text */
   font-family: 'Roboto', sans-serif; /* Modern font */
   display: flex;
@@ -14,12 +14,13 @@ body {
   padding: 2rem;
   border-radius: 12px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7); /* Stronger shadow */
-  width: 90%;
+  width: 100%;
   max-width: 500px; /* Limit max width */
   backdrop-filter: blur(10px); /* Frosted glass effect */
 }
 
 h1 {
+  font-family: 'Courier New', monospace;
   text-align: center;
   margin-bottom: 1.5rem;
   font-size: 2rem; /* Larger title */
@@ -29,7 +30,7 @@ h1 {
 .dropdowns-container {
   display: flex;
   justify-content: space-between; /* Space between the dropdowns */
-  gap: 1rem; /* Space between dropdowns */
+  gap: 2rem; /* Space between dropdowns */
 }
 
 select {
@@ -52,7 +53,7 @@ input[type="text"],
 input[type="email"],
 select,
 textarea {
-  width: 100%;
+  width: 90%;
   padding: 0.75rem;
   margin: 0.5rem 0;
   border: 1px solid rgba(255, 255, 255, 0.3); /* Light border */

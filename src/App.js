@@ -54,15 +54,15 @@ function App() {
   <div className="dropdowns-container">
        <select name="role" value={formData.role} onChange={handleChange} required>
           <option value="">Role</option>
-          <option value="Developer">Developer</option>
-          <option value="Designer">Designer</option>
-          <option value="Manager">Manager</option>
+          <option value="intern">intern</option>
+          <option value="team member">team member</option>
+          <option value="custmer">custmer</option>
         </select>
         <select name="feedbackType" value={formData.feedbackType} onChange={handleChange} required>
           <option value="">Feedback Type</option>
-          <option value="Bug Report">Bug Report</option>
-          <option value="Feature Request">Feature Request</option>
-          <option value="General Feedback">General Feedback</option>
+          <option value="suggestion">suggestion</option>
+          <option value="compliant">compliant</option>
+          <option value="appreciation">appreciation</option>
         </select>
   </div>
 
